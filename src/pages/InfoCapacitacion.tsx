@@ -31,7 +31,7 @@ const InfoCapacitacion = () => {
                 {capacitacion.descripcion}
               </p>
               <div className="info-capacitacion__capacitador">
-                <img src="../../public/imgs/Capacitadora.png" alt="Foto del capacitador" className="info-capacitacion__capacitador-img" />
+                <div className="info-capacitacion__capacitador-img"></div>  
                 <h5 className="info-capacitacion__capacitador-nombre">{capacitacion.capacitador}</h5>
                 <span className="info-capacitacion__capacitador-role">Capacitadora</span>
               </div>

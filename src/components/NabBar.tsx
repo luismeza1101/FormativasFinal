@@ -4,11 +4,7 @@ import "../stylesheets/NavBar.css";
 const NabBar = () => {
   return (
     <nav className="navbar">
-      <img
-        className="navbar__logo"
-        src="../../public/imgs/Logo.png"
-        alt="Logo de certus"
-      />
+      <div className="navbar__logo"></div>
       <ul className="navbar__list">
         <li className="navbar__item">
           <Link to={"/inicio"} className="navbar__item--link">
@@ -24,11 +20,7 @@ const NabBar = () => {
       <div className="navbar__usuario">
         <h4 className="navbar__usuario-name">Pedro Navaja</h4>
         <span className="navbar__usuario-role">Profesor</span>
-        <img
-          className="navbar__usuario-photo"
-          src="../../public/imgs/Profesor.jpeg"
-          alt="Foto de profesor"
-        />
+        <div className="navbar__usuario-photo"></div>
       </div>
     </nav>
   );
