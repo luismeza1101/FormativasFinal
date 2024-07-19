@@ -6,7 +6,10 @@
     background-color: transparent;
     padding: 0 20px;
     color: #fff;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-fondo);
+    z-index: 999;
 }
 .navbar__logo{
     height: 90px;

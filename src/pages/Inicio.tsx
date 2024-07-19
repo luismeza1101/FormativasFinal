@@ -3,9 +3,8 @@ import '../stylesheets/Inicio.css';
 
 const Inicio = () => {
   return (
-    <>
-      <NabBar /> 
       <main className="inicio">
+      <NabBar /> 
         <h1 className="inicio__title">Bienvenido a Certus!!</h1>
         <div className="inicio__modal modal">
           <div className="modal__info">
@@ -19,7 +18,6 @@ const Inicio = () => {
           <div className="modal__image image_modal"></div>
         </div>
       </main>
-    </>
   )
 }
 

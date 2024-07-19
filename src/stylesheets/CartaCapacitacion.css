@@ -1,0 +1,39 @@
+.carta-capacitacion{
+    background-color: var(--color-finGradient);
+    color: #fff;
+    display: flex;
+    border-radius: 20px;
+}
+.carta-capacitacion__info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 60%;
+}
+.carta-capacitacion__boton{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 50%;
+}
+.carta-capacitacion__boton--icon{
+    background-color: var(--color-fondo);
+    color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    width: var(--size-iconButon);
+    height: var(--size-iconButon);
+}
+.carta-capacitacion__imagen{
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 47% 100%, 0 49%);
+    background: url(../../public/imgs/imagenModal.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    border-radius: 0 20px 20px 0;
+}
