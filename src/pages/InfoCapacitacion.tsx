@@ -40,10 +40,10 @@ const InfoCapacitacion = () => {
                 <button className="info-capacitacion__boton" onClick={handleEvaluacionFinal}>Evaluación Final<FaArrowRight className="info-capacitacion__boton--icon"/></button>
               </div>
               <div className="info-capacitacion__bar-progreso">
-                <input type="range" min={0} max={100} className="info-capacitacion__bar-progreso-input" value={capacitacion.progreso}/>
+                <input type="range" min={0} max={100} className="info-capacitacion__bar-progreso-input" value={capacitacion.progreso} readOnly/>
                 <p className="info-capacitacion__bar-progreso-porcentaje">{capacitacion.progreso == 100 ? 'Completado': `${capacitacion.progreso}%`}</p>
               </div>
-              {capacitacion.progreso == 100 ? <button className="info-capacitacion__boton" style={{width: '35%'}}>Descargar constancia de capacitacion <FaArrowRight className="info-capacitacion__boton--icon"/></button>: null}
+              {capacitacion.progreso == 100 ? <button className="info-capacitacion__boton" style={{width: '320px'}}>Descargar constancia de capacitacion <FaArrowRight className="info-capacitacion__boton--icon"/></button>: null}
               <div className="info-capacitacion__comentarios">
                 <span className="info-capacitacion__comentarios-title">Comentarios</span>
                 <textarea className="info-capacitacion__comentarios-input" value={comentario} onChange={evt => setComentario(evt.target.value)}></textarea>

@@ -48,3 +48,8 @@
     border: none;
     cursor: pointer;
 }
+@media screen and (max-width: 520px) {
+    .login__form{
+        width: 90%;
+    }
+}

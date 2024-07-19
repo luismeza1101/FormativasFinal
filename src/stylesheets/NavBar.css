@@ -52,3 +52,14 @@
     height: 60%;
     margin-left: 30px;
 }
+    
+@media screen and (max-width: 770px){
+    .navbar__list{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .navbar__logo{
+        height:50px ;
+    }
+}

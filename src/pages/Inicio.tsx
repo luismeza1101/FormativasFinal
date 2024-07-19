@@ -16,7 +16,7 @@ const Inicio = () => {
               <Link to={'/capacitaciones'}><button className="modal__button">Si</button></Link>
               <Link to={'/'}><button className="modal__button">No</button></Link>
             </div>
-            <p className="modal__info-text">Capacitaciones pendientes: {capacitacionesPendientes.length}</p>
+            <p className="modal__info-text">Capacitaciones pendientes: <span>{capacitacionesPendientes.length}</span></p>
           </div>
           <div className="modal__image image_modal"></div>
         </div>
