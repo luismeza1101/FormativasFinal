@@ -3,9 +3,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-fondo);
+    background-color: transparent;
     padding: 0 20px;
     color: #fff;
+    position: fixed;
 }
 .navbar__logo{
     height: 90px;
