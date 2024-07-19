@@ -1,0 +1,48 @@
+.modal-evaluacion-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro con opacidad */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; 
+  }
+  
+  .modal-evaluacion {
+    background-color: var(--color-finGradient);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    z-index: 1001; 
+    max-width: 90%;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  .modal-evaluacion__logo {
+    width: 100px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+  
+  .modal-evaluacion__aviso {
+    font-size: 16px;
+  }
+
+  .modal-evaluacion__boton{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 800;
+  }
