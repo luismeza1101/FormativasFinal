@@ -28,9 +28,13 @@
   }
   
   .modal-evaluacion__logo {
+    background-image: url(../../public/imgs/Logo.png);
+    background-size: cover;
+    background-position: center;
     width: 100px;
+    height: 30px;
     position: absolute;
-    top: 10px;
+    top: 15px;
     left: 20px;
   }
   

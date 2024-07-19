@@ -8,7 +8,7 @@ const ModalEvaFinal: React.FC<Props> = ({setMostrarAviso}) => {
   return (
     <div className="modal-evaluacion-overlay">
       <div className="modal-evaluacion">
-        <img src="../../public/imgs/Logo.png" alt="Logo" className="modal-evaluacion__logo" />
+        <div className="modal-evaluacion__logo"></div>
         <p className="modal-evaluacion__aviso">
           Debe completar el 100% de la duración de la capacitación
         </p>
