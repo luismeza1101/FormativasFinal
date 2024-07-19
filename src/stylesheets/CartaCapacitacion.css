@@ -11,6 +11,15 @@
     padding: 20px;
     width: 60%;
 }
+.carta-capacitacion__nombre{
+    font-size: 25px;
+}
+.carta-capacitacion__capacitador span{
+    color: var(--color-texto);
+}
+.carta-capacitacion__link{
+    text-decoration: none;
+}
 .carta-capacitacion__boton{
     padding: 10px 15px;
     border-radius: 20px;
@@ -20,6 +29,7 @@
     justify-content: center;
     gap: 20px;
     max-width: 50%;
+    cursor: pointer;
 }
 .carta-capacitacion__boton--icon{
     background-color: var(--color-fondo);

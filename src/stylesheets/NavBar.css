@@ -19,6 +19,10 @@
     display: flex;
     gap: 50px;
 }
+.navbar__item--link{
+    color: #fff;
+    text-decoration: none;
+}
 .navbar__item:hover{
     text-decoration: underline;
     cursor: pointer;

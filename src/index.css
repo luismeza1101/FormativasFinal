@@ -11,3 +11,7 @@
   --color-finGradient: #3e2080;
   --size-iconButon: 25px
 }
+
+html{
+  overflow-x: hidden;
+}
