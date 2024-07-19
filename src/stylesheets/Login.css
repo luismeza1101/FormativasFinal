@@ -8,7 +8,11 @@
     justify-content: center;
 }
 .login__logo{
+    background-image: url(../../public/imgs/Logo.png);
+    background-size: cover;
+    background-position: center;
     width: 250px;
+    height: 90px;
     position: absolute;
     top: 10px;    
     left: 20px;

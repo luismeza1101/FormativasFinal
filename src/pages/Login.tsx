@@ -27,11 +27,7 @@ const Login = () => {
 
   return (
     <div className="login">
-      <img
-        className="login__logo"
-        src="../../public/imgs/Logo.png"
-        alt="Logo certus"
-      />
+      <div className="login__logo"></div>
       <form className="login__form" onSubmit={handleLogin}>
         <h3 className="login__title">Bienvenido de nuevo!!</h3>
         <input
