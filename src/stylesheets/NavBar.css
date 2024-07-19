@@ -1,0 +1,46 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-fondo);
+    padding: 0 20px;
+    color: #fff;
+}
+.navbar__logo{
+    height: 90px;
+}
+.navbar__list{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.navbar__item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navbar__usuario{
+    display: grid;
+    grid-template-areas: 
+    "name photo"
+    "role photo";
+    place-items: center;
+}
+.navbar__usuario-name{
+    grid-area: name;
+    position: relative;
+    bottom: -10px;
+    font-weight: 800;
+}
+.navbar__usuario-role{
+    grid-area: role;
+    position: relative;
+    top: -10px;
+    color: var(--color-texto);
+}
+.navbar__usuario-photo{
+    grid-area: photo;
+    border-radius: 50%;
+    height: 60%;
+    margin-left: 30px;
+}
