@@ -7,7 +7,6 @@ const NabBar = () => {
       <ul className="navbar__list">
         <li className="navbar__item">Inicio</li>
         <li className="navbar__item">Capacitaciones</li>
-        <li className="navbar__item">Asistencia</li>
       </ul>
       <div className="navbar__usuario">
         <h4 className="navbar__usuario-name">Pedro Navaja</h4>
